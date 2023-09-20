@@ -1,0 +1,32 @@
+/* RegisterStyles.css */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register-form {
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.custom-btn {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally within the container */
+  text-align: center; /* Center text within the container */
+  margin-top: 20px; /* Add some spacing at the top */
+}
+
+.custom-btn button {
+  margin-bottom: 10px; /* Add spacing between the button and text/link */
+}
+
+.already-user a {
+  color: #007bff; /* Set the link color */
+  text-decoration: none; /* Remove underlines */
+  margin-left: 5px; /* Add spacing to the left of the link */
+}
